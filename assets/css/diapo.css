@@ -1,0 +1,68 @@
+body{
+    margin: 0;
+}
+
+main{
+    width: 86%;
+    margin: 0 auto;
+    padding:0;
+    margin-bottom: 3%;
+}
+
+.diapo{
+    position: relative;
+    overflow: hidden;
+
+}
+
+#nav-droite, #nav-gauche{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    color: white;
+    font-size: 3em;
+}
+
+#nav-droite{
+    right: 20px;
+}
+#nav-gauche{
+    left: 20px;
+}
+
+#nav-droite:hover, #nav-gauche:hover{
+    cursor:pointer;
+    opacity:95%;
+}
+
+.elements{
+    display: flex;
+    transition: 1s linear;
+
+}
+
+.element{
+    flex: 1 0 100%;
+    position: relative;
+    width: 5%;
+
+
+}
+
+.elementactive{
+    background-color: white;
+    color:white;
+}
+
+.element > img{
+    width: 100%;
+
+}
+
+.imagee{
+    width:100%;
+}
+
+.imagee:hover{
+    opacity: 0.9;
+}

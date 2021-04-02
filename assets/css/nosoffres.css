@@ -1,0 +1,144 @@
+
+/*PAGE ACCUEIL - 9 DESTINATIONS*/
+
+.flex{
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	flex-wrap: wrap;
+	align-items: center;
+	margin-left:7%;
+	margin-right: 7%;
+}
+
+.bg{
+	height:5em;
+	padding:5px;
+	width:auto;
+	color:white;
+	margin-top:8.5em;
+	font-size:1.3em;
+	background-color: rgb(8,129,209,0.75);
+	overflow: hidden;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	background-position: contain;
+	background-repeat: no-repeat;
+	height:auto;
+	width: 50vh;
+	margin-bottom: 3%;
+	background-size: 100%;
+}
+
+.bg1{background-image: url(../img/londres2.png);}
+
+.bg2{background-image: url(../img/paris2.png);}
+
+.bg3{background-image: url(../img/venise2.png);}
+
+.bg4{background-image: url(../img/la2.png);}
+
+.bg5{background-image: url(../img/newyork2.png);}
+
+.bg6{background-image: url(../img/toronto2.png);}
+
+.bg7{background-image: url(../img/tokyo2.png);}
+
+.bg8{background-image: url(../img/bali2.png);}
+
+.bg9{background-image: url(../img/dubai2.png);}
+
+
+/*ZOOM SUR IMAGE*/
+
+.bg1:hover,.bg2:hover,.bg3:hover,.bg4:hover,.bg5:hover,.bg6:hover,.bg7:hover,.bg8:hover,.bg9:hover {
+	transform: scale(1.1);
+	transition: 1s;
+	cursor:pointer;
+	box-shadow: 3px 3px 5px 3px #C1BDCA;
+}
+
+
+@media screen and (max-width: 1080px) {
+.bg{
+	font-size:1.2vh;
+	margin-top:30%;
+
+}
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:60vh;
+	max-height:100vh;
+	width: 60vh;
+}
+
+}
+
+@media screen and (max-width: 850px) {
+.bg{
+	font-size:3vh;
+	margin-top:53%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:50vh;
+	width: 50vh;
+}
+}
+@media screen and (max-width: 735px) {
+.bg{
+	font-size:3vh;
+	margin-top:53%;
+}
+}
+
+@media screen and (max-width: 735px) {
+.bg{
+		margin-top:50%;
+
+}
+}
+
+@media screen and (max-width: 420px) {
+.bg{
+	font-size:3vh;
+	margin-top:54%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:43vh;
+	width: 43vh;
+}
+
+}
+
+@media screen and (max-width: 400px) {
+.bg{
+	font-size:2.7vh;
+	margin-top:50%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:40vh;
+	width: 40vh;
+}
+
+}
+
+
+@media screen and (max-width: 300px) {
+.bg{
+	font-size:2.5vh;
+	margin-top:50%;
+}
+
+.bg1, .bg2, .bg3, .bg4, .bg5, .bg6, .bg7, .bg8, .bg9{
+	height:auto;
+	max-height:37vh;
+	width: 37vh;
+}
+
+}
